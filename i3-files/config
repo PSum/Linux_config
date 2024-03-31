@@ -46,9 +46,8 @@ bindsym XF86MonBrightnessUp exec brightnessctl s +5%
 # the arrows is not convenient
 set $up k
 set $down j
-set $left semicolon
+set $left h
 set $right l
-
 # use Mouse+Mod1 to drag floating windows to their wanted position
 floating_modifier Mod1
 
@@ -95,10 +94,10 @@ bindsym Mod1+Shift+Up move up
 bindsym Mod1+Shift+Right move right
 
 # split in horizontal orientation
-bindsym Mod1+h split h
+bindsym Mod1+Ctrl+h split h
 
 # split in vertical orientation
-bindsym Mod1+v split v
+bindsym Mod1+Ctrl+v split v
 
 # enter fullscreen mode for the focused container
 bindsym Mod1+f fullscreen toggle
